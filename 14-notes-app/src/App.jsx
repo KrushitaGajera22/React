@@ -61,6 +61,7 @@ const App = () => {
   };
 
   const editNote = (idx) => {
+    setError("");
     setTitle(task[idx].title);
     setDetails(task[idx].details);
     setEdit(idx);
