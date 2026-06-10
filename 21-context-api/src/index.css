@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #111;
+}
+
+.light {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: lightseagreen;
+}
+
+.dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: darkslategrey;
+}
+
+.nav2 {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  color: black;
+}
